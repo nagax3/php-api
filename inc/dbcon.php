@@ -1,12 +1,10 @@
 <?php
-$host = "141.252.219.226
-";
-$port = 3306
+$host = "wash.cznay1hciiaq.eu-north-1.rds.amazonaws.com";
 $username = "root";
 $dbname = "wash";
-$password = "";
+$password = "qwerty";
 
-$conn = mysqli_connect($host,$username, $password, $dbname, $port);
+$conn = mysqli_connect($host,$username, $password, $dbname);
 
 if(!$conn) {
 
